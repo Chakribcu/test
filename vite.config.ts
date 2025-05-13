@@ -20,6 +20,9 @@ export default defineConfig({
     outDir: "dist",
     rollupOptions: {
       external: [],
+      input: {
+        main: "./client/src/main.tsx",
+      },
     },
     emptyOutDir: true,
   },
